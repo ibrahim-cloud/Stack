@@ -13,7 +13,7 @@ body{
 .container .cader{
     padding: 20px;
     border-radius: 97px;
-    background: linear-gradient(to bottom, #6d6c6c 1%, #272727 100%);
+  
     display: flex;
     width: 400PX;
     HEIGHT: 664PX;
@@ -25,14 +25,14 @@ body{
 }
 body{
 
-    background: linear-gradient(to bottom, #000000 1%, #000000 100%);;
+    background: #3C1053FF;
 }
 
 .container .cader button{
     width: 278px;
     border: none;
     outline: none;
-    background-color: #fc5c65;
+    background-color: #DF6589FF;
     color: white;
     border-radius: 10px;
     padding: 10px;
@@ -41,13 +41,13 @@ body{
     cursor: pointer;
 }
 .container .cader button:active{
-    background-color: #6d6c6c;
+    background-color: #ffffff;
 }
 .container .cader input{
     padding: 10px;
     border: none;
     outline: none;
-    background-color:rgba(255, 255, 255, 0.637);
+    background-color:rgb(255, 255, 255);
     border-radius: 10px;
     padding: 10px;
     margin: 28px;
@@ -59,5 +59,7 @@ body{
 .container .cader p{
     color: white;
     font-size: 1.2em;
+    font-family: cursive;
     text-shadow: #fc5c65 0 0 3px;
+}
 }
